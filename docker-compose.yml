@@ -1,0 +1,13 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: stelloid_dashboard_api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./stelloid.db:/app/stelloid.db
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
