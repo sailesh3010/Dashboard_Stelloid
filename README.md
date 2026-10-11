@@ -1,11 +1,5 @@
 # Stelloid Command Center Dashboard API
 
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-009688.svg?style=flat&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
-[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg?style=flat&logo=python&logoColor=white)](https://www.python.org/)
-[![SQLite](https://img.shields.io/badge/Database-SQLite%203-003B57.svg?style=flat&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
-[![Docker](https://img.shields.io/badge/Docker-Ready-2496ED.svg?style=flat&logo=docker&logoColor=white)](https://www.docker.com/)
-[![Tests](https://img.shields.io/badge/Tests-23%20Passed-brightgreen.svg?style=flat&logo=pytest&logoColor=white)](https://docs.pytest.org/)
-
 A production-ready **FastAPI** backend analytics service designed to power the **Stelloid Command Center Dashboard**. It provisions a normalized SQLite relational data store, seeds deterministic multi-channel e-commerce time-series data, exposes high-performance RESTful endpoints with filtering, caching, and pagination, and includes an interactive embedded web frontend.
 
 ---
