@@ -12,7 +12,7 @@ A production-ready **FastAPI** backend analytics service designed to power the *
 
 ## Table of Contents
 - [Project Overview](#project-overview)
-- [Dashboard Reference](#dashboard-reference)
+- [Dashboard Concepts](#dashboard-concepts)
 - [Architecture & Tech Stack](#architecture--tech-stack)
 - [Database Schema & Data Model](#database-schema--data-model)
 - [Database Verification & Screenshots](#database-verification--screenshots)
@@ -38,11 +38,9 @@ The backend provides aggregated and time-series analytics across omnichannel sal
 
 ---
 
-## Dashboard Reference
+## Dashboard Concepts
 
-The API is specifically structured to power the concepts visible on the Stelloid Command Center interface:
-
-![Stelloid Command Center Dashboard Reference](screenshots/dashboard_ui_reference.png)
+The API is specifically structured to support all analytics modules required for the Stelloid Command Center interface:
 
 1. **Brand Overview Cards**: High-level brand summary for GMV, Net Revenue, Contribution Margin, Returns/Refunds, Net Orders, and Average Order Value (AOV).
 2. **Revenue & Contribution Trend**: Continuous time-series charting daily net revenue and contribution.
@@ -468,8 +466,7 @@ Dashboard_Stelloid/
 │   ├── app.js
 │   ├── index.html
 │   └── styles.css
-├── screenshots/                    # Verification and UI screenshots
-│   ├── dashboard_ui_reference.png  # Command Center reference UI
+├── screenshots/                    # Verification database query screenshots
 │   ├── db_daily_brand_metrics.png  # DB Browser verification: daily_brand_metrics
 │   ├── db_channel_performance.png  # DB Browser verification: channel performance aggregation
 │   └── db_channel_distribution.png # DB Browser verification: market share distribution
